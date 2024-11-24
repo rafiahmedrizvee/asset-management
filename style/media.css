@@ -1027,7 +1027,8 @@
         padding: 0;
         box-sizing: border-box;
         background-color: #f4f4f9;
-        overflow-x: hidden;
+        overflow-x: hidden;,
+        max-width: 100%;
     }
     /* .............................home SECTION................................................................. */
     .linkhome {
@@ -1365,19 +1366,21 @@
         background-color: #2c3e50;
         clip-path: ellipse(81% 89% at 51% 100%);
         color: #bdc3c7;
-        padding: 70px 70px 70px 70px;
+        padding: 60px 25px 60px  60px;
         width: 100%;
     }
     
     .footer-container {
         display: flex;
+        padding:10px 0 0 50px;
         justify-content: space-between;
         max-width: auto;
     }
     
     .footer-column {
         flex: 1;
-        padding:10px 0 0 15px;
+        padding: 10px 0 10px 10px;
+       align-items: center; 
     }
     
     .footer-column h4 {
@@ -1432,12 +1435,12 @@
         text-align: center;
         margin-top: 6px;
         border-top: 1px solid #7f8c8d;
-        padding-top: 10px;
+        padding-top: 8px;
     }
     
     .footer-bottom p {
         margin: 0;
-        font-size: 5px;
+        font-size: 10px;
         color: #95a5a6;
     }
 
