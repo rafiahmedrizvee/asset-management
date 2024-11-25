@@ -24,7 +24,7 @@ body {
 .nav-container .link a {
     position: relative;
     font-size: 1.2rem;
-    color: rgb(255, 255, 255);
+    color: #ffffff;
     text-decoration: none;
     font-weight: 550;
     transition: 0.3s linear;
