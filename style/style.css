@@ -5,7 +5,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f4f4f9;
+    background-color:#f4f3f3;
 }
 
 /* .............................home SECTION................................................................. */
@@ -46,7 +46,7 @@ body {
 }
 
 .nav-container .link a:hover {
-    color: #f3c14a;
+    color: #e74c3c;
 }
 
 /* ..............................=============== header SECTION ==================.......................................... */
@@ -61,6 +61,7 @@ body {
 
 .greendot {
     padding: 0 0 0 20px;
+    text-decoration: none;
 }
 
 .siams {
@@ -139,7 +140,7 @@ nav {
     border: 1px solid #ddd;
     padding: 1.5em;
     border-radius: 8px;
-    background-color: #f9f9f9;
+    background-color: 	#f2f3f4 ;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.2s, box-shadow 0.2s;
 }
@@ -276,11 +277,13 @@ nav {
 }
 
 .history-card {
-    background-color: #c0904d;
+    background-color:#2c3e50f5;
     color: white;
     padding: 1.5em;
     border-radius: 8px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.300);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.300);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.300);
     transition: transform 0.3s;
 }
 
