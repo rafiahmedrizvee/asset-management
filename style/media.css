@@ -113,7 +113,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 0.1em;
+        gap: 10px;
         margin: 2px 2px 2px 2px;
     }
     .grid-item {
@@ -278,14 +278,14 @@
     /* --------------.................==================== massage  Section======================.................----------------- */
     .bodyone {
         margin: 0;
-        padding: 0;
-        background-image: url('../image/ch.png');
+        padding: 0 0 0 0;
+        background-image: url('../image/contact-us-phone.jpg');
         /* Replace with your image URL */
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         font-family: Arial, sans-serif;
-        color: white;
+        color:#2c3e50;
     }
     .containerone {
         width: 96%;
@@ -315,13 +315,13 @@
         margin-bottom: 15px;
         background: transparent;
         border: none;
-        border-bottom: 2px solid #fff;
-        color: #fff;
+        border-bottom: 2px solid #2c3e50;
+        color: #2c3e50;
         padding: 10px 5px;
         outline: none;
     }
     .form-control::placeholder {
-        color: #ddd;
+        color: #2c3e50;
     }
     .send-button {
         background-color: #f0a500;
@@ -371,7 +371,7 @@
     .message-imagetwo {
         margin: 20px 0px 0px 0px;
         border-radius: 8px;
-        box-shadow: 0 8px 16px #e08e00;
+        box-shadow: 0 8px 16px #2c3e50;
         height: 250px;
         width: 305px;
     }
@@ -615,12 +615,12 @@
     .grid-container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        gap: 2em;
+        gap: 15px;
         margin: 50px 20px 50px 20px;
     }
     .grid-item {
         border: 1px solid #ddd;
-        padding: 1.5em;
+        padding: 10px;
         border-radius: 8px;
         background-color: #f9f9f9;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -711,7 +711,7 @@
     .grid-container {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 0.1em;
+        gap: 10px;
         margin: 2px 2px 2px 2px;
     }
     /* scrollbar */
@@ -800,13 +800,12 @@
     .bodyone {
         margin: 0;
         padding: 0;
-        background-image: url('../image/ch.png');
-        /* Replace with your image URL */
+        background-image: url('../image/contact-us-phone.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
         font-family: Arial, sans-serif;
-        color: white;
+        color:#2c3e50f5;
     }
     .containerone {
         width: 97%;
@@ -817,15 +816,13 @@
     }
     .message-section {
         background: rgba(255, 255, 255, 0.2);
-        /* White background with more transparency */
+       
         padding: 20px 20px 20px 20px;
         border-radius: 10px;
         max-width: 500px;
         width: 90%;
         backdrop-filter: blur(5px);
-        /* Adds a blur effect for better contrast */
         border: 1px solid rgba(255, 255, 255, 0.3);
-        /* Optional border for styling */
     }
     .message-section h2 {
         text-align: center;
@@ -836,13 +833,13 @@
         margin-bottom: 15px;
         background: transparent;
         border: none;
-        border-bottom: 2px solid #fff;
-        color: #fff;
+        border-bottom: 2px solid #2c3e50f5;
+        color: #2c3e50f5;
         padding: 10px 5px;
         outline: none;
     }
     .form-control::placeholder {
-        color: #ddd;
+        color: #2c3e50f5;
     }
     .send-button {
         background-color: #f0a500;

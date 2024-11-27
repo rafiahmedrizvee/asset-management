@@ -46,7 +46,7 @@ body {
 }
 
 .nav-container .link a:hover {
-    color: #e74c3c;
+    color: red;
 }
 
 /* ..............................=============== header SECTION ==================.......................................... */
@@ -62,6 +62,7 @@ body {
 .greendot {
     padding: 0 0 0 20px;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 .siams {
@@ -323,13 +324,13 @@ nav {
 .bodyone {
     margin: 0;
     padding: 0;
-    background-image: url('../image/ch.png');
+    background-image: url('../image/contact-us-phone.jpg');
     /* Replace with your image URL */
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     font-family: Arial, sans-serif;
-    color: white;
+    color: #2c3e50;
 }
 
 .containerone {
@@ -356,6 +357,7 @@ nav {
 .message-section h2 {
     text-align: center;
     margin-bottom: 20px;
+    color: #2c3e50;
 }
 
 .form-control {
@@ -363,18 +365,18 @@ nav {
     margin-bottom: 15px;
     background: transparent;
     border: none;
-    border-bottom: 2px solid #fff;
-    color: #fff;
+    border-bottom: 2px solid #2c3e50;
+    color: #2c3e50;
     padding: 10px 5px;
     outline: none;
 }
 
 .form-control::placeholder {
-    color: #ddd;
+    color: #2c3e50;
 }
 
 .send-button {
-    background-color: #f0a500;
+    background-color: #e08e00;
     color: #000;
     border: none;
     padding: 10px 20px;
@@ -423,7 +425,7 @@ nav {
 .message-imagetwo {
     margin: -103px 0px 60px 230px;
     border-radius: 8px;
-    box-shadow: 0 8px 16px #e08e00;
+    box-shadow: 0 8px 16px #2c3e50;
     height: 250px;
     width: 250px;
 }
@@ -471,7 +473,7 @@ nav {
 /* =============footer section========== */
 
 .footer {
-    background-color: #2c3e50;
+    background-color:#2c3e50;
     clip-path: ellipse(81% 89% at 51% 100%);
     color: #bdc3c7;
     padding: 60px 0;
