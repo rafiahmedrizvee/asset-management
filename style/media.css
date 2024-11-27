@@ -280,7 +280,6 @@
         margin: 0;
         padding: 0 0 0 0;
         background-image: url('../image/contact-us-phone.jpg');
-        /* Replace with your image URL */
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -800,7 +799,7 @@
     .bodyone {
         margin: 0;
         padding: 0;
-        background-image: url('../image/contact-us-phone.jpg');
+       
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -889,7 +888,7 @@
     .message-imagetwo {
         margin: 20px 0px 0px 0px;
         border-radius: 8px;
-        box-shadow: 0 8px 16px #e08e00;
+        box-shadow: 0 8px 16px #2c3e50;
         height: 250px;
         width: 360px;
     }
